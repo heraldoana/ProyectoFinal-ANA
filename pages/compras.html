@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HySControl</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="./compras-style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="compras">
+    <nav>
+      <ul class="menu-horizontal">
+        <li> <img class="logo" src="../images/logohyscontrol.png" alt="logo hys control"> </li>
+        <li class="nombrePagina"> HYS CONTROL</li>
+        <li> <input id="buscador" placeholder="Nombre producto"></li>
+        <li id="buscar">BUSCAR</li>
+        <li> FILTRAR CATEGORIA
+          <ul class="menu-vertical">
+            <li class="filtroCategoria" id="proteccion respiratoria"> Proteccion Respiratoria</li>
+            <li class="filtroCategoria" id="indumentaria de trabajo"> Indumentaria de Trabajo</li>
+            <li class="filtroCategoria" id="proteccion visual">Proteccion Visual</li>
+            <li class="filtroCategoria" id="proteccion de cabeza">Proteccion de Cabeza</li>
+            <li class="filtroCategoria" id="proteccion de manos">Proteccion de Manos</li>
+          </ul>
+        </li>
+        <li class="filtroCategoria" id="mostrarTodos">Mostrar Todos</li>
+        <li id="verOcultar">VER/OCULTAR CARRITO</li>
+      </ul>
+    </nav>
+    <div id="contenedorProductos"></div>
+    <div class="oculta" id="carrito">
+
+  </main>
+  
+  <footer>
+    <div class="contactos-footer">
+      <div>
+        <p class="redes">Conocenos a traves de nuestras redes</p>
+        <p class="redes">Nuestras redes sociales</p>
+        <img src="../images/iconoinstagram.png" alt="logo de instagram" width="100px">
+        <a href="https://www.linkedin.com/company/hys-control/?viewAsMember=true"> <img src="../images/iconolinkedin.png" alt="logo de linkedin" width="70px"> </a> 
+      </div>
+      <div class="whatsapp">
+        <p class="redes">Contactanos a traves de whatsapp haciendo click en el icono de abajo:</p>
+        <a href="https://wa.me/543815115596" target="_blank"> <img src="../images/logowhatsapp.png" alt="logo whatsapp" width="50px"> </a> 
+      </div>  
+    </div>
+    <p class="derechos">&copy;  Todos los derechos reserv</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./compras-script.js"></script>
+</body>
+</html>

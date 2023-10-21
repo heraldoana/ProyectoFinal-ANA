@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HySControl</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logoytitle_header_menu">
+            <div class="logo_header">
+                <img class="logo" src="./images/logohyscontrol.png" alt="logo de la pagina">
+            </div>
+            <div class="title_header">
+                HyS Control
+            </div>
+        </div>       
+    </header>
+    <main class="home">
+        <h1 id="titulo">Bienvenido a nuestra página</h1>
+        <div class="formularioCrear" id="formularioCrear">
+            <div class="form">
+                <p> Primero vamos a crear un usuario y una contraseña</p>
+                <div class="label-icon">
+                    <img data-aos="fade-left" class="img-icon" src="./images/iconousuario.png" alt="icono usuario">
+                    <label for="username">Usuario:</label>
+                </div>
+                <input type="text" id="usernameCreate" placeholder="Escribe tu nombre de usuario">
+                <div class="label-icon">
+                    <img data-aos="fade-left" class="img-icon" src="./images/iconocontraseña.png" alt="icono contraseña">
+                    <label for="password">Contraseña:</label>
+                </div>
+                <input type="password" id="passwordCreate" placeholder="Escribe tu contraseña">
+                <button class="btn-iniciarsesion" id="crearUsuarioBtn">Crear usuario y contraseña</button>
+            </div>
+        </div>
+
+        <div class="formularioSesion" id="formularioSesion">
+            <div class="form">
+                <p> A continuacion ingresar el usuario y contraseña que anteriormente creaste</p>
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" placeholder="Escribe tu nombre de usuario">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" placeholder="Escribe tu contraseña">
+                <button class="btn-iniciarsesion" id="iniciarSesionBtn">Iniciar Sesión</button>
+            </div>
+        </div>
+        <div id="mensaje"></div>
+    </main>
+
+
+    <footer>
+        <p class="footer">&copy;  Todos los derechos reserv</p>
+    </footer>
+    <script src="./home-script.js"></script>
+
+</body>
+</html>

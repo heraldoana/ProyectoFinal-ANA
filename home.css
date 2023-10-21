@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  background-image: linear-gradient(to top, rgb(13, 13, 13), rgb(64, 64, 34));
+  color: gold;
+  padding: 10px 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  position: sticky;
+}
+
+.title_header {
+  color: gold;
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+  text-shadow: black 4px 5px;
+}
+
+.logo_header img {
+  height: 80px;
+  width: 80px;
+}
+
+.logoytitle_header_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home{
+  background-image: url(./images/fondopagina3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  font-family: "Bebas Neue", cursive;
+}
+
+h1{
+  color: rgb(198, 191, 0);
+  text-shadow: rgb(54, 54, 54) 4px 5px;
+  text-shadow: 30px;
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Anton", cursive;
+}
+
+p{
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+.label-icon{
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+
+.img-icon {
+  width: 20px;
+}
+
+.formularioCrear {
+display: block;
+}
+
+.formularioSesion {
+display: none;
+}
+
+label{
+  color: white;
+  text-align: center;
+}
+
+input{
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+button {
+  background: #fff; /* color de fondo */
+  color: black; /* color de fuente */
+  font-size: 10px; /* tamaño de fuente */
+  margin: auto;
+  width: auto;
+  height: auto;
+  padding: 16px 20px;
+  border-radius: 10px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Bebas Neue", cursive;
+}
+
+.btn-iniciarsesion:hover {
+  color: #111111;/* color de fuente hover */
+}
+
+.btn-iniciarsesion::after {
+  content: "";
+  background: #d7ca41; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s ease;
+}
+
+.btn-iniciarsesion:hover::after {
+  transition: all 0.5s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+footer{
+  background-image: linear-gradient(to top, rgb(13, 13, 13), rgb(64, 64, 34));
+  padding-bottom: 20px;
+}
+
+footer p{
+  color: whitesmoke;
+  font-family: "Bebas Neue", cursive;
+}
+
+.mensaje {
+  text-align: center;
+  color: red;
+}

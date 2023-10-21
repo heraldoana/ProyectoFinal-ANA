@@ -1,0 +1,92 @@
+  [
+    {
+        "id": 1,
+        "nombre": "barbijo de polvo",
+        "info": "con valvula marca Libus 1740",
+        "categoria": "proteccion respiratoria",
+        "stock": 20,
+        "precio": 1200,
+        "rutaImagen": "barbijo-polvo.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "mameluco azul",
+        "info": "ignifugo de cuerpo completo",
+        "categoria": "indumentaria de trabajo",
+        "stock": 7,
+        "precio": 10000,
+        "rutaImagen": "ropadetrabajo.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "gafas claras",
+        "info": "con proteccion lateral marca Libus modelo ARGON",
+        "categoria": "proteccion visual",
+        "stock": 25,
+        "precio": 850,
+        "rutaImagen": "gafas-claras.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "casco",
+        "info": "color blanco con arnes y cremallera marca 3M",
+        "categoria": "proteccion de cabeza",
+        "stock": 1,
+        "precio": 12500,
+        "rutaImagen": "casco3m.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "gafas oscuras",
+        "info": "con proteccion lateral y UV marca Libus modelo ARGON",
+        "categoria": "proteccion visual",
+        "stock": 50,
+        "precio": 1050,
+        "rutaImagen": "gafas-oscuras.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "guantes de vaqueta",
+        "info": "de puño corto marca Libus",
+        "categoria": "proteccion de manos",
+        "stock": 0,
+        "precio": 950,
+        "rutaImagen": "guantes-vaqueta.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "barbijo de gases",
+        "info": "con valvula marca Libus 1840v",
+        "categoria": "proteccion respiratoria",
+        "stock": 7,
+        "precio": 1400,
+        "rutaImagen": "barbijo-gases.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "mameluco blanco",
+        "info": "descartable color blanco tipo Tyvek",
+        "categoria": "indumentaria de trabajo",
+        "stock": 7,
+        "precio": 7500,
+        "rutaImagen": "mameluco-blanco.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "guantes de soldar",
+        "info": "de puño largo con material ignifugo en su interior",
+        "categoria": "proteccion de manos",
+        "stock": 0,
+        "precio": 1250,
+        "rutaImagen": "guantes-soldar.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "guantes anticorte",
+        "info": "de categoria 4, tipo puño corto, marca DPS",
+        "categoria": "proteccion de manos",
+        "stock": 5,
+        "precio": 1500,
+        "rutaImagen": "guantes-anticorte.jpg"
+    }
+]
