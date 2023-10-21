@@ -1,7 +1,7 @@
 fetch("./productos.json") // retorna objeto Response
   .then(respuesta => respuesta.json()) // pasar de Response a JS 
   .then(productos => principal(productos))
-  .catch(error => lanzarAlerta(error, 'No podemos acceder a la base donde estan los productos', 'error', true))
+  .catch(error => lanzarAlerta(error, 'error', true))
 
 function principal(productos) {
   let carritoRecuperado = localStorage.getItem("carrito")
